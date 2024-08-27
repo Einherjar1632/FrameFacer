@@ -3,24 +3,7 @@ mp4ファイルを指定すると、その動画を10秒おきに抽出し、そ
 
 ## 必要なインストール
 
-### Pythonパッケージ
-
-以下のコマンドを実行して、必要なPythonパッケージをインストールしてください：
-
-```bash
-pip install opencv-python
-```
-
-```bash
-pip install dlib
-```
-
-```bash
-pip install face_recognition
-```
-
-
-また、以下のツールもインストールが必要です：
+先に以下のツールもインストールが必要です：
 
 1. CMake
    - ダウンロード先: https://cmake.org/download/
@@ -36,3 +19,19 @@ pip install face_recognition
      3. 「インストール」をクリックし、インストールを完了させます。
 
 注意: これらのツールのインストールには管理者権限が必要な場合があります。
+
+### Pythonパッケージ
+
+その後、以下のコマンドを実行して、必要なPythonパッケージをインストールしてください：
+
+```bash
+pip install opencv-python
+```
+
+```bash
+pip install dlib
+```
+
+```bash
+pip install face_recognition
+```
