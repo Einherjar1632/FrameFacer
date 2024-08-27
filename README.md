@@ -7,9 +7,17 @@ mp4ファイルを指定すると、その動画を10秒おきに抽出し、そ
 
 以下のコマンドを実行して、必要なPythonパッケージをインストールしてください：
 
+```bash
 pip install opencv-python
+```
+
+```bash
 pip install dlib
+```
+
+```bash
 pip install face_recognition
+```
 
 
 また、以下のツールもインストールが必要です：
